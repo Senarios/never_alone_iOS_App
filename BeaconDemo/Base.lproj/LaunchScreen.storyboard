@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_" translatesAutoresizingMaskIntoConstraints="NO" id="HZH-YU-tSh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lauchScreenIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Lh6-T4-Ah6">
+                                <rect key="frame" x="56.5" y="120" width="262.5" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="eHU-b8-nOY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1058658436" green="0.105891861" blue="0.1058642045" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Lh6-T4-Ah6" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="120" id="2qZ-9E-7iq"/>
+                            <constraint firstItem="HZH-YU-tSh" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="6RG-EU-80g"/>
+                            <constraint firstItem="HZH-YU-tSh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="I3s-yP-WOY"/>
+                            <constraint firstItem="Lh6-T4-Ah6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Q8N-JE-aQK"/>
+                            <constraint firstItem="Lh6-T4-Ah6" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.7" id="e0d-1d-7Tf"/>
+                            <constraint firstAttribute="bottom" secondItem="HZH-YU-tSh" secondAttribute="bottom" id="hf6-oB-Zaw"/>
+                            <constraint firstAttribute="trailing" secondItem="HZH-YU-tSh" secondAttribute="trailing" id="mme-Ms-gXr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lauchScreenIcon" width="795" height="280"/>
+        <image name="splash_" width="887" height="1920"/>
+    </resources>
+</document>
